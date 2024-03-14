@@ -1,0 +1,6 @@
+2024-03-14 22:15:25.176333+02:00 jdbc[35]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE_URL CHARACTER VARYING(255)": "'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.sonypictures.com%2Fsites... (498)"; SQL statement:
+INSERT INTO "PUBLIC"."MOVIE"("ID","ACTOR","GENRE","IMAGE_URL","RELEASE_YEAR","TITLE")VALUES(?,?,?,?,?,?) [22001-224]
+2024-03-14 22:15:25.184901+02:00 jdbc[35]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE_URL CHARACTER VARYING(255)": "'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.sonypictures.com%2Fsites... (498)"; SQL statement:
+INSERT INTO "PUBLIC"."MOVIE"("ID","ACTOR","GENRE","IMAGE_URL","RELEASE_YEAR","TITLE")VALUES(?,?,?,?,?,?) [22001-224]
